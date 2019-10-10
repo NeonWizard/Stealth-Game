@@ -5,8 +5,8 @@ using UnityEngine;
 public class Guard : MonoBehaviour {
 	public static event System.Action OnGuardHasSpottedPlayer;
 
-	public float speed = 7;
-	public float waitTime = .3f;
+	public float speed = 10;
+	public float waitTime = .1f;
 	public float turnSpeed = 180;
 	public float timeToSpotPlayer = .3f;
 

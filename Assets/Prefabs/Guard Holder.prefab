@@ -279,10 +279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dace2b2aa18d99949a90c51a2e4dbbf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  waitTime: 0.3
-  turnSpeed: 90
-  timeToSpotPlayer: 0.5
+  speed: 10
+  waitTime: 0.1
+  turnSpeed: 180
+  timeToSpotPlayer: 0.3
   spotLight: {fileID: 108753207856013470}
   viewDistance: 10
   viewMask:

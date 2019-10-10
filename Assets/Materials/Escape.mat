@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Obstacle
+  m_Name: Escape
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.754717, g: 0.08187969, b: 0.1293862, a: 1}
-    - _EmissionColor: {r: 0.4392157, g: 0.04509804, b: 0.04509804, a: 1}
+    - _Color: {r: 0.28734675, g: 1, b: 0.24056602, a: 1}
+    - _EmissionColor: {r: 0.5759162, g: 1.9999998, b: 0.48167533, a: 1}
