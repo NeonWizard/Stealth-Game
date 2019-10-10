@@ -43,6 +43,7 @@ public class Player : MonoBehaviour {
 			Disable();
 			if (OnReachedEndOfLevel != null) {
 				OnReachedEndOfLevel();
+				gameObject.SetActive(false);
 			}
 		}
 	}
